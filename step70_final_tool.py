@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 # 🌟設定：前に成功したLINE公式のアクセストークンをそのまま使います！
 LINE_ACCESS_TOKEN = "YOUR_LINE_ACCESS_TOKEN"
 # 前に成功した、公式の「全員に一斉送信」する住所です
-LINE_API_URL = "https://api.line.me/v2/bot/message/broadcast"
+LINE_API_URL = " "YOUR_LINE_ACCESS_TOKEN"t"
 book_url = "http://books.toscrape.com/"
 
 print("ーーー 🏆 自動化ツール公式完成版 システム起動 ーーー")

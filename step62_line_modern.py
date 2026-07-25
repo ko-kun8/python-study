@@ -4,9 +4,8 @@ import os  # 👈【追加】1. フォルダの場所を操作する「os」と�
 import sys  # 👈【追加】2. システムの情報を司る「sys」という相棒を召喚
 
 # 🌟設定：あなたのLINEの2つの鍵をここに貼り付けます
-LINE_CHANNEL_SECRET = "325b7945271d16654f4eb1165e10d72e"
-LINE_ACCESS_TOKEN = "JCcRnfRwG/gzXJZKhe9BoT+EEpySV3hjf7mSwGSt4XLZjs0mxlUlFvk4+Dqsd+/TFNi6hb+Fyhu6xmBjzUjtU1EPHiSj5umcsWiCS66mmz1BdBqG4CY60bsBvtF/gGIxImXpHTAPV4ePQTe4ugkLAwdB04t89/1O/w1cDnyilFU="
-
+LINE_CHANNEL_SECRET =  "YOUR_LINE_ACCESS_TOKEN"
+LINE_ACCESS_TOKEN = "YOUR_LINE_ACCESS_TOKEN"
 # Messaging APIで「全員に一斉送信（ブロードキャスト）」する公式の住所です
 LINE_API_URL = "https://api.line.me/v2/bot/message/broadcast"
 
